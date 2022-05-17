@@ -33,7 +33,7 @@ SELECT CourseID, count(ModuleName)
 FROM module
 group by CourseID;
 
--- OR
+-- OR --
 
 SELECT CourseID, count(*)
 FROM module
